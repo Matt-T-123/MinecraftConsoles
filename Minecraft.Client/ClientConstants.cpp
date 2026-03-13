@@ -3,3 +3,4 @@
 
 const wstring ClientConstants::VERSION_STRING = wstring(L"Minecraft LCE ") + VER_FILEVERSION_STR_W;//+ SharedConstants::VERSION_STRING;
 const wstring ClientConstants::BRANCH_STRING = VER_BRANCHVERSION_STR_W;
+const wstring ClientConstants::CLIENT_STRING = wstring(L"Client ") + VER_FILEVERSION_STR_W;
